@@ -55,3 +55,23 @@ Configuration is based on env variables:
 2. Run the add_features.ipynb notebook: This will increment the challenge and submission set with additional features
 3. Run the rf_model.ipynb notebook: This will test a Random Forest Model and generate the TOW for the submission set
    
+# References
+|Topic|Methodology/comments|Lien source|
+|----|-------|-----|
+|Aircraft performance|eurocontrol data|https://contentzone.eurocontrol.int/aircraftperformance/default.aspx?|
+|aircraft OEW|own assessment with Airline and  manufacturer information in typical configuration|airbus.com|
+|||boeing.com|
+|||https://fr.wikipedia.org/wiki/Bombardier_Canadair_Regional_Jet|
+|||https://www.atr-aircraft.com/aircraft-services/aircraft-family/atr-42-600/|
+|||https://embraer.com/|
+||cabin configuration|https://www.seatguru.com/|
+|||airlines website|
+|RECAT EU|To determine our own heavy medium and light model.|https://www.eurocontrol.int/archive_download/all/node/9681|
+|||https://www.easa.europa.eu/en/downloads/117238/en|
+||Taxi-in time|Eurocontrol stat|||
+|Airport data and runway ||https://ourairports.com/data/|
+|flight stats||https://www.eurocontrol.int/sites/default/files/2022-12/eurocontrol-comprehensive-air-traffic-assessment-20221208-2022-overview.pdf|
+|||https://www.eurocontrol.int/sites/default/files/2024-04/eurocontrol-european-aviation-overview-20240403.pdf|
+|"taxi-in out fuel burn|""Estimation of Aircraft Taxi-out Fuel Burn using"|
+|"Flight Data Recorder Archives""|https://web.mit.edu/hamsa/www/pubs/KhadilkarBalakrishnanGNC2011.pdf"|
+|taxi times||https://www.eurocontrol.int/publication/taxi-times-summer-2023|
