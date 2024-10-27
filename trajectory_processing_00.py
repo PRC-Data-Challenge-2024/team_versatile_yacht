@@ -1,3 +1,19 @@
+## PRC Data Challenge - M3 Systems Team
+## Author: Jose Gonzalez - github: jraniero
+## Date: 2024-10-15
+## License: GPLv3
+## Description: 
+##  This file pre-process the .parquet files with the challenge trajectory data
+##  FOllowing data is extracted from trajectory
+##    - Estimation of maximum flight level: using the statistical mode, median and maximum
+##    - Estimation of first climb plateau: First stable altitude maintained
+##    - Estimation of average vertical rate until first plateau
+##    - Estimation of windspeed and airspeed at take-off, with magnitude and direction
+##    - Estimaton of windspeed and airspeed at first plateau, with magnitude and direction
+## This code has been written with speed efficiency in mind, given we had no big data infrastructure available
+## Therefore, we are not using the traffic library and we are using heuristics methods for extracting
+## the trajectory data.
+
 import os
 import pandas as pd
 import logging

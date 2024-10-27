@@ -52,6 +52,7 @@ Configuration is based on env variables:
 - UTC_OFFSET: File with local UTC offset
 ### Execution
 1. Run the trajectory_processing_00.py file: This can take significant time as it will cycle through the .parquet files
+  - We tested using the traffic library for cleaning and ressampling the data, but it was computationnaly demanding. Therefore we have implemented some heuristics filters that run in a reasonable amount of time (in the compute facilities we had available)
 2. Run the add_features.ipynb notebook: This will increment the challenge and submission set with additional features
 3. Run the rf_model.ipynb notebook: This will test a Random Forest Model and generate the TOW for the submission set
    
