@@ -3,7 +3,7 @@
 This repository contains the code of [team_versatile_yacht](https://ansperformance.eu/study/data-challenge/teams.html#team_versatile_yacht) used for the [PRC Data Challenge 2024](https://ansperformance.eu/study/data-challenge/)
 
 ## The Team
-The team is composed of aeronautical engineers and data scientist
+The team is composed of aeronautical engineers and data scientists from M3 Systems
 
 ## The approach
 ### Feature engineering
